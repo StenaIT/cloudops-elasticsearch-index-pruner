@@ -8,9 +8,9 @@ Environment Variable  | Description                                             
 ----------------------|-------------------------------------------------------------|-----------|---------
 ES_HOST               | The hostname of Elasticsearch                               | -         | true
 ES_PORT               | The port of Elasticsearch                                   | -         | true
-ES_BASIC_AUTH         | Username and password used when connecting to Elasticsearch | -         | true
-INDEX_OLDER_THAN_DAYS | Indices older than this value will be deleted               | 14        | true
-INDEX_PREFIX          | Indices matching the given prefix will be deleted           | logstash- | true
+ES_BASIC_AUTH         | Username and password used when connecting to Elasticsearch | -         | false
+INDEX_OLDER_THAN_DAYS | Indices older than this value will be deleted               | 14        | false
+INDEX_PREFIX          | Indices matching the given prefix will be deleted           | logstash- | false
 
 ## Using the docker image
 

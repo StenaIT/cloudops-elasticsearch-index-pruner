@@ -2,6 +2,11 @@
 
 Docker image for cleaning up old indices, based on the [curator](https://github.com/elastic/curator) component.
 
+[![Docker Automated build](https://img.shields.io/docker/automated/stena/cloudops-elasticsearch-index-pruner.svg?style=for-the-badge)](https://hub.docker.com/r/stena/cloudops-elasticsearch-index-pruner/)
+[![Docker Build Status](https://img.shields.io/docker/build/stena/cloudops-elasticsearch-index-pruner.svg?style=for-the-badge)](https://hub.docker.com/r/stena/cloudops-elasticsearch-index-pruner/)
+[![MicroBadger Size](https://img.shields.io/microbadger/image-size/stena/cloudops-elasticsearch-index-pruner.svg?style=for-the-badge)](https://hub.docker.com/r/stena/cloudops-elasticsearch-index-pruner/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/stena/cloudops-elasticsearch-index-pruner.svg?style=for-the-badge)](https://hub.docker.com/r/stena/cloudops-elasticsearch-index-pruner/)
+
 ## Configuration
 
 Environment Variable  | Description                                                 | Default   | Required
